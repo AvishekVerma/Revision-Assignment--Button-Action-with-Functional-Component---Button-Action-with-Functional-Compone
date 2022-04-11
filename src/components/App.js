@@ -8,14 +8,14 @@ function App() {
     setState("true");    
   };
   
-//   if (state === "true") {
-//     return (
-//       <p id="para">
-//         Hello, I've learnt to use the full-stack evaluation tool. This makes me
-//         so happy
-//       </p>
-//     );
-//   }
+  if (state === "true") {
+    return (
+      <p id="para">
+        Hello, I've learnt to use the full-stack evaluation tool. This makes me
+        so happy
+      </p>
+    );
+  }
   
   return (
     <div id="main">
@@ -23,11 +23,11 @@ function App() {
       <button id="click" onClick={changePara}>
         Click
       </button>
-      <p id="para">
-        {state === 'true'
-          ? "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
-          : " "}{" "}
-      </p>
+//       <p id="para">
+//         {state === 'true'
+//           ? "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
+//           : " "}{" "}
+//       </p>
     </div>
   );
 }
